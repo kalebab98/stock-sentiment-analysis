@@ -20,3 +20,11 @@ venv/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Ignore all CSV files
+*.csv
+
+# But do NOT ignore these two CSVs
+!notebooks/publisher_article_counts.csv
+!notebooks/articles_per_day.csv
+
