@@ -1,8 +1,8 @@
-📈 Stock Sentiment Analysis
-🔍 Overview
+# 📈 Stock Sentiment Analysis
+**🔍 Overview**
 This project investigates the relationship between financial news sentiment and stock price movements. By combining historical stock price data with natural language processing (NLP) on news headlines, we analyze how market sentiment influences stock performance.
 
-The project is divided into three key tasks:
+**The project is divided into three key tasks:**
 Task 1: Exploratory Data Analysis (EDA) of financial news data
 
 Task 2: Technical Analysis of stock price trends
@@ -12,7 +12,7 @@ Task 3: Sentiment Analysis of news headlines using VADER
 🗂 Project Structure
 graphql
 
-stock-sentiment-analysis/
+**stock-sentiment-analysis/**
 ├── notebooks/          # Jupyter notebooks for EDA, analysis, and visualization
 ├── raw_data/           # Source CSV files: news & stock prices
 ├── scripts/            # Utility scripts (if any)
@@ -20,7 +20,7 @@ stock-sentiment-analysis/
 ├── requirements.txt    # Python dependencies
 ├── README.md           # Project documentation
 
-🚀 Setup Instructions
+**🚀 Setup Instructions**
 cd stock-sentiment-analysis
 Create and activate a virtual environment (recommended):
 
@@ -39,7 +39,7 @@ Install dependencies:
 pip install -r requirements.txt
 Run the notebooks inside the notebooks/ directory to perform the analyses.
 
-🎯 Usage Guide
+**🎯 Usage Guide**
 Begin with notebooks/01_eda.ipynb:
 Explore and clean the financial news data.
 
