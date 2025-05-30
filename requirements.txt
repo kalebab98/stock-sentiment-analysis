@@ -1,1 +1,5 @@
 TA-Lib
+pandas
+nltk
+matplotlib
+seaborngit status
