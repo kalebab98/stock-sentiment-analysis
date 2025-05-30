@@ -9,28 +9,30 @@ Task 2: Technical Analysis of stock price trends
 
 Task 3: Sentiment Analysis of news headlines using VADER
 
-🗂 Project Structure
-graphql
-
-**stock-sentiment-analysis/**
-├── notebooks/          # Jupyter notebooks for EDA, analysis, and visualization
-├── raw_data/           # Source CSV files: news & stock prices
-├── scripts/            # Utility scripts (if any)
-├── tests/              # Unit and integration tests
-├── requirements.txt    # Python dependencies
-├── README.md           # Project documentation
 
 **🚀 Setup Instructions**
 cd stock-sentiment-analysis
 Create and activate a virtual environment (recommended):
 
-On macOS/Linux:
+**🎯 Usage Guide**
+-Begin with notebooks/01_eda.ipynb:
+-Explore and clean the financial news data.
+
+-Continue to notebooks/02_technical_analysis.ipynb:
+-Analyze historical stock price trends and technical indicators.
+
+-Proceed to notebooks/03_sentiment_analysis.ipynb:
+-Perform sentiment scoring on news headlines using VADER and link sentiment to stock movement.
+
+-All visualizations and CSV outputs are saved in the corresponding notebook directories for easy access.
+
+**On macOS/Linux:**
 
 python -m venv .venv
 source .venv/bin/activate
 On Windows:
 
-powershell
+**powershell**
 
 python -m venv .venv
 .venv\Scripts\activate
@@ -39,14 +41,4 @@ Install dependencies:
 pip install -r requirements.txt
 Run the notebooks inside the notebooks/ directory to perform the analyses.
 
-**🎯 Usage Guide**
-Begin with notebooks/01_eda.ipynb:
-Explore and clean the financial news data.
 
-Continue to notebooks/02_technical_analysis.ipynb:
-Analyze historical stock price trends and technical indicators.
-
-Proceed to notebooks/03_sentiment_analysis.ipynb:
-Perform sentiment scoring on news headlines using VADER and link sentiment to stock movement.
-
-All visualizations and CSV outputs are saved in the corresponding notebook directories for easy access.
