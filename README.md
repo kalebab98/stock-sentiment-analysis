@@ -1,48 +1,52 @@
-Stock Sentiment Analysis
-Overview
-This project analyzes the relationship between financial news sentiment and stock price movements. Using historical stock price data combined with natural language processing on news headlines, the project explores how market sentiment impacts stock performance.
+📈 Stock Sentiment Analysis
+🔍 Overview
+This project investigates the relationship between financial news sentiment and stock price movements. By combining historical stock price data with natural language processing (NLP) on news headlines, we analyze how market sentiment influences stock performance.
 
-It includes three main tasks:
-
+The project is divided into three key tasks:
 Task 1: Exploratory Data Analysis (EDA) of financial news data
 
 Task 2: Technical Analysis of stock price trends
 
 Task 3: Sentiment Analysis of news headlines using VADER
 
-Project Structure
+🗂 Project Structure
 graphql
+
 stock-sentiment-analysis/
 ├── notebooks/          # Jupyter notebooks for EDA, analysis, and visualization
-├── raw_data/           # Source CSV files for news and stock prices
+├── raw_data/           # Source CSV files: news & stock prices
 ├── scripts/            # Utility scripts (if any)
 ├── tests/              # Unit and integration tests
 ├── requirements.txt    # Python dependencies
-├── README.md           # This documentation file
-Setup Instructions
-Clone the repository:
+├── README.md           # Project documentation
 
-
-git clone https://github.com/kalebab98/stock-sentiment-analysis.git
+🚀 Setup Instructions
 cd stock-sentiment-analysis
-Create and activate a virtual environment (optional but recommended):
+Create and activate a virtual environment (recommended):
 
+On macOS/Linux:
 
 python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+source .venv/bin/activate
+On Windows:
+
+powershell
+
+python -m venv .venv
+.venv\Scripts\activate
 Install dependencies:
 
-bash
 pip install -r requirements.txt
-Run the notebooks in the notebooks/ folder to perform the analysis.
+Run the notebooks inside the notebooks/ directory to perform the analyses.
 
-Usage
-Start with notebooks/01_eda.ipynb for exploratory data analysis of news data.
+🎯 Usage Guide
+Begin with notebooks/01_eda.ipynb:
+Explore and clean the financial news data.
 
-Proceed to notebooks/02_technical_analysis.ipynb for stock price trends.
+Continue to notebooks/02_technical_analysis.ipynb:
+Analyze historical stock price trends and technical indicators.
 
-Use notebooks/03_sentiment_analysis.ipynb for applying sentiment scoring on headlines.
+Proceed to notebooks/03_sentiment_analysis.ipynb:
+Perform sentiment scoring on news headlines using VADER and link sentiment to stock movement.
 
-Visualizations and CSV outputs are saved in the respective notebook directories.
-
-
+All visualizations and CSV outputs are saved in the corresponding notebook directories for easy access.
