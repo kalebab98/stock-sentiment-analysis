@@ -15,7 +15,8 @@ cd stock-sentiment-analysis
 Create and activate a virtual environment (recommended):
 
 **🎯 Usage Guide**
--Begin with notebooks/01_eda.ipynb:
+
+**-Begin with notebooks/01_eda.ipynb:**
 -Explore and clean the financial news data.
 
 -Continue to notebooks/02_technical_analysis.ipynb:
