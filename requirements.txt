@@ -1,1 +1,4 @@
 TA-Lib
+pandas
+matplotlib
+seaborn
