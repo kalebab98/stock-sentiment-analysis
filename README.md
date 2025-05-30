@@ -14,6 +14,15 @@ Task 3: Sentiment Analysis of news headlines using VADER
 cd stock-sentiment-analysis
 Create and activate a virtual environment (recommended):
 
+## 💻 Task Notebooks
+
+| Task | Notebook | Description |
+|------|----------|-------------|
+| Task 1 | [`01_eda.ipynb`](notebooks/01_eda.ipynb) | Load and explore news data: article counts, publisher trends |
+| Task 2 | [`02_technical_analysis.ipynb`](notebooks/02_technical_analysis.ipynb) | Analyze stock price trends with moving averages |
+| Task 3 | [`03_sentiment_analysis.ipynb`](notebooks/03_sentiment_analysis.ipynb) | Run VADER sentiment analysis on headlines |
+
+
 **🎯 Usage Guide**
 
 **-Begin with notebooks/01_eda.ipynb:**
