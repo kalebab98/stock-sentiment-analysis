@@ -1,8 +1,8 @@
-# 📊 Task 3: Streamlit Sentiment Dashboard
+# 📊 Task 3: Stock Sentiment Streamlit Dashboard
 
 ## Overview
 
-This task builds a **Streamlit web app** to visualize the relationship between financial news sentiment and stock price performance. It allows users to filter by ticker and sentiment type, and view trends over time.
+This task implements a **Streamlit-based dashboard** that visualizes the relationship between financial news sentiment and stock price movement. It uses preprocessed data and focuses solely on building an interactive frontend.
 
 ---
 
