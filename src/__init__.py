@@ -10,7 +10,9 @@ st.set_page_config(page_title="Stock Sentiment Analysis", layout="wide")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r"https://drive.google.com/file/d/1oQP1TnpbBxCV9dc8d9obWqwuzxkl2qc3/view?usp=sharing", parse_dates=['date'])
+    url = "https://drive.google.com/uc?export=download&id=1oQP1TnpbBxCV9dc8d9obWqwuzxkl2qc3"
+df = pd.read_csv(url, parse_dates=['date'])
+
 
     return df
 
