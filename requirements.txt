@@ -1,4 +1,4 @@
-TA-Lib
+ta
 pandas
 matplotlib
 seaborn
