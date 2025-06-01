@@ -1,19 +1,68 @@
-## Task 2: Technical Indicator Analysis using TA-Lib
+# 📊 Task 3: Streamlit Sentiment Dashboard
 
-In this task, we used historical stock data to generate key technical indicators that help assess market trends and momentum.
+## Overview
 
-### Process:
-- Loaded historical data for AAPL, AMZN, GOOG, META, MSFT, NVDA, and TSLA from `.csv` files.
-- Parsed dates and sorted the data for each stock.
-- Used [TA-Lib](https://github.com/TA-Lib/ta-lib-python) to calculate:
-  - **Simple Moving Average (SMA 20)**: A short-term trend indicator.
-  - **Relative Strength Index (RSI 14)**: Identifies overbought/oversold conditions.
-  - **MACD (12, 26, 9)**: Detects momentum shifts via convergence/divergence of moving averages.
-- Visualized indicators for AAPL using `matplotlib`:
-  - Line plot of Close price with 20-day SMA
-  - RSI chart with overbought/oversold reference lines
-  - MACD and Signal line comparison
+This task builds a **Streamlit web app** to visualize the relationship between financial news sentiment and stock price performance. It allows users to filter by ticker and sentiment type, and view trends over time.
 
-These features will be essential for correlation analysis in Task 3, where we integrate sentiment data with technical signals.
+---
 
-All processed stock data is ready for merging and analysis.
+## 🚀 Features
+
+- Interactive dashboard built with **Streamlit**
+- Filters for stock ticker and sentiment
+- Time-series plot: **Stock Close Price vs Sentiment Labels**
+- Bar chart: **Average 1-Day Return by Sentiment**
+- Data preview section
+
+---
+
+## 📁 Files
+
+- `notebooks/app.py`: Main Streamlit app file
+- `requirements.txt`: Lists required Python packages
+- `src/__init__.py`: Logic for loading and processing data
+- `notebooks/processed_news_sentiment.csv`: Data source (not included in repo due to size)
+
+---
+
+## 🛠️ Tech Stack
+
+- Streamlit
+- Pandas
+- Seaborn
+- Matplotlib
+- Gdown (optional, for fetching Google Drive CSVs)
+
+---
+
+## 📦 Setup Instructions
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/kalebab98/stock-sentiment-analysis.git
+    cd stock-sentiment-analysis
+    ```
+
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Run Streamlit app:
+    ```bash
+    streamlit run notebooks/app.py
+    ```
+
+---
+
+## 🌐 Live App
+
+> Hosted on Streamlit Cloud (add link when available)
+
+---
+
+## 🔍 Insights
+
+- Real-time filtering enables interactive analysis of sentiment trends
+- Visuals help highlight how sentiment may influence short-term price movement
+- Encourages data-driven observation of news impact on the market
