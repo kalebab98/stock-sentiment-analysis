@@ -28,7 +28,7 @@ st.sidebar.title("🔍 Filter Options")
 tickers = df['ticker'].dropna().unique().tolist()
 selected_ticker = st.sidebar.selectbox("Select Ticker", tickers)
 
-sentiments = ['positive', 'neutral', 'negative', 'all']
+sentiments = ['All', 'neutral' , 'negative' ,'positive']
 selected_sentiment = st.sidebar.radio("Sentiment Filter", sentiments)
 
 if selected_sentiment != 'all':
