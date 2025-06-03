@@ -1,8 +1,7 @@
-streamlit
-TA-Lib
+matplotlib
+nltk
 pandas
 seaborn
-nltk
+streamlit
+TA-Lib
 ta
-matplotlib
-seaborngit status
