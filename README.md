@@ -78,6 +78,13 @@ Install dependencies:
 
 pip install -r requirements.txt
 Run the notebooks inside the notebooks/ directory to perform the analyses.
+Flask
+
+**🌐 Live Demo **
+-You can view the interactive dashboard here (if deployed):
+-[🔗 Streamlit App
+](https://stock-sentiment-analysis-ezp794a4tpsxw46e8mdt89.streamlit.app/)
+
 
 ![image](https://github.com/user-attachments/assets/0e718dd8-6f65-440b-9e9f-2025a529bfde)
 
