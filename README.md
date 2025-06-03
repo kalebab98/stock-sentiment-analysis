@@ -1,5 +1,7 @@
 # 📈 Stock Sentiment Analysis
 **Streamlit link : https://stock-sentiment-analysis-ezp794a4tpsxw46e8mdt89.streamlit.app/**
+
+
 **🔍 Overview**
 This project investigates the relationship between financial news sentiment and stock price movements. By combining historical stock price data with natural language processing (NLP) on news headlines, we analyze how market sentiment influences stock performance.
 
