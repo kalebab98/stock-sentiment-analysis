@@ -1,68 +1,54 @@
-# 📊 Task 3: Stock Sentiment Streamlit Dashboard
+# 📈 Stock Sentiment Analysis
+**🔍 Overview**
+This project investigates the relationship between financial news sentiment and stock price movements. By combining historical stock price data with natural language processing (NLP) on news headlines, we analyze how market sentiment influences stock performance.
 
-## Overview
+**The project is divided into three key tasks:**
+Task 1: Exploratory Data Analysis (EDA) of financial news data
 
-This task implements a **Streamlit-based dashboard** that visualizes the relationship between financial news sentiment and stock price movement. It uses preprocessed data and focuses solely on building an interactive frontend.
+Task 2: Technical Analysis of stock price trends
 
----
+Task 3: Sentiment Analysis of news headlines using VADER
 
-## 🚀 Features
 
-- Interactive dashboard built with **Streamlit**
-- Filters for stock ticker and sentiment
-- Time-series plot: **Stock Close Price vs Sentiment Labels**
-- Bar chart: **Average 1-Day Return by Sentiment**
-- Data preview section
+**🚀 Setup Instructions**
+cd stock-sentiment-analysis
+Create and activate a virtual environment (recommended):
 
----
+## 💻 Task Notebooks
 
-## 📁 Files
+| Task | Notebook | Description |
+|------|----------|-------------|
+| Task 1 | [`01_eda.ipynb`](notebooks/01_eda.ipynb) | Load and explore news data: article counts, publisher trends |
+| Task 2 | [`02_technical_analysis.ipynb`](notebooks/02_technical_analysis.ipynb) | Analyze stock price trends with moving averages |
+| Task 3 | [`03_sentiment_analysis.ipynb`](notebooks/03_sentiment_analysis.ipynb) | Run VADER sentiment analysis on headlines |
 
-- `notebooks/app.py`: Main Streamlit app file
-- `requirements.txt`: Lists required Python packages
-- `src/__init__.py`: Logic for loading and processing data
-- `notebooks/processed_news_sentiment.csv`: Data source (not included in repo due to size)
 
----
+**🎯 Usage Guide**
 
-## 🛠️ Tech Stack
+**-Begin with notebooks/01_eda.ipynb:**
+-Explore and clean the financial news data.
 
-- Streamlit
-- Pandas
-- Seaborn
-- Matplotlib
-- Gdown (optional, for fetching Google Drive CSVs)
+-Continue to notebooks/02_technical_analysis.ipynb:
+-Analyze historical stock price trends and technical indicators.
 
----
+-Proceed to notebooks/03_sentiment_analysis.ipynb:
+-Perform sentiment scoring on news headlines using VADER and link sentiment to stock movement.
 
-## 📦 Setup Instructions
+-All visualizations and CSV outputs are saved in the corresponding notebook directories for easy access.
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/kalebab98/stock-sentiment-analysis.git
-    cd stock-sentiment-analysis
-    ```
+**On macOS/Linux:**
 
-2. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+python -m venv .venv
+source .venv/bin/activate
+On Windows:
 
-3. Run Streamlit app:
-    ```bash
-    streamlit run notebooks/app.py
-    ```
+**powershell**
 
----
+python -m venv .venv
+.venv\Scripts\activate
+Install dependencies:
 
-## 🌐 Live App
+pip install -r requirements.txt
+Run the notebooks inside the notebooks/ directory to perform the analyses.
 
-> Hosted on Streamlit Cloud (add link when available)
 
----
-
-## 🔍 Insights
-
-- Real-time filtering enables interactive analysis of sentiment trends
-- Visuals help highlight how sentiment may influence short-term price movement
-- Encourages data-driven observation of news impact on the market

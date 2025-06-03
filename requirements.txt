@@ -1,5 +1,7 @@
-streamlit
-ta
-pandas
 matplotlib
+nltk
+pandas
 seaborn
+streamlit
+TA-Lib
+ta

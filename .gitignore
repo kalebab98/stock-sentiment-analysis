@@ -10,7 +10,7 @@ __pycache__/
 *.csv
 *.xlsx
 *.pkl
-*.json
+
 
 # Environments
 .env
