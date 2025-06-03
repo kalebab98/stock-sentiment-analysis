@@ -1,5 +1,7 @@
-TA-Lib
-pandas
-nltk
 matplotlib
-seaborngit status
+nltk
+pandas
+seaborn
+streamlit
+TA-Lib
+ta

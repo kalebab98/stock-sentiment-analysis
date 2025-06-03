@@ -12,7 +12,7 @@ __pycache__/
 *.pkl
 
 
-# Environment
+# Environments
 .env
 .venv/
 venv/
@@ -27,4 +27,5 @@ Thumbs.db
 # But do NOT ignore these two CSVs
 !notebooks/publisher_article_counts.csv
 !notebooks/articles_per_day.csv
+
 
