@@ -3,5 +3,4 @@ nltk
 pandas
 seaborn
 streamlit
-TA-Lib
 ta
