@@ -39,6 +39,29 @@ Create and activate a virtual environment (recommended):
 
 -All visualizations and CSV outputs are saved in the corresponding notebook directories for easy access.
 
+**📦 Data Sources**
+-News Headlines:
+-File: data/raw_analyst_ratings.csv
+-Format: headline, publisher, date, stock, url
+
+-Stock Prices:
+-Folder: data/yfinance_data/
+=Files: One CSV per ticker (e.g., AAPL, TSLA, GOOG, etc.)
+-Format: Date, Open, Close, Volume, etc.
+
+
+**🧠 Requirements**
+Make sure requirements.txt includes (or manually install):
+
+-pandas
+-numpy
+-matplotlib
+-seaborn
+-vaderSentiment
+-yfinance
+-ta-lib
+-jupyter
+
 **On macOS/Linux:**
 
 python -m venv .venv
@@ -50,11 +73,12 @@ On Windows:
 python -m venv .venv
 .venv\Scripts\activate
 
-![image](https://github.com/user-attachments/assets/0e718dd8-6f65-440b-9e9f-2025a529bfde)
 
 Install dependencies:
 
 pip install -r requirements.txt
 Run the notebooks inside the notebooks/ directory to perform the analyses.
+
+![image](https://github.com/user-attachments/assets/0e718dd8-6f65-440b-9e9f-2025a529bfde)
 
 
