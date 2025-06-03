@@ -1,6 +1,5 @@
 # 📈 Stock Sentiment Analysis
-![image](https://github.com/user-attachments/assets/c677b4b4-b92c-4d12-99e9-aed3a71b860a)
-
+Streamlit link : https://stock-sentiment-analysis-ezp794a4tpsxw46e8mdt89.streamlit.app/
 **🔍 Overview**
 This project investigates the relationship between financial news sentiment and stock price movements. By combining historical stock price data with natural language processing (NLP) on news headlines, we analyze how market sentiment influences stock performance.
 
@@ -48,6 +47,9 @@ On Windows:
 
 python -m venv .venv
 .venv\Scripts\activate
+
+![image](https://github.com/user-attachments/assets/0e718dd8-6f65-440b-9e9f-2025a529bfde)
+
 Install dependencies:
 
 pip install -r requirements.txt
