@@ -22,7 +22,7 @@ Create and activate a virtual environment (recommended):
 | Task | Notebook | Description |
 |------|----------|-------------|
 | Task 1 | [`01_eda.ipynb`](notebooks/01_eda.ipynb) | Load and explore news data: article counts, publisher trends |
-| Task 2 | [`02_technical_analysis.ipynb`](notebooks/02_technical_analysis.ipynb) | Analyze stock price trends with moving averages |
+| Task 2 | [`02_AAPL_Analysis.ipynb,AMZN_Analysis.ipynb,GOOG_Analysis.ipynb,META_Analysis.ipynb,NVDA_Analysis.ipynb,MSFT.Analysis.ipynb`] | Analyze stock price trends with moving averages |
 | Task 3 | [`03_sentiment_analysis.ipynb`](notebooks/03_sentiment_analysis.ipynb) | Run VADER sentiment analysis on headlines |
 
 
